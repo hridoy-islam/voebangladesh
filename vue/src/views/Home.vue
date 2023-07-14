@@ -16,13 +16,15 @@
         </div>
       </div>
     </div>
-    <div class="my-16 flex justify-between container mx-auto">
-      <div class="w-2/4 mx-auto">
-        <p class="my-2">The Voice of Engineers-Bangladesh (VOE) is an online platform that promotes Bangladeshi engineers' contributions, struggles, and sacrifices through daily news, alerts, and online programs. This is a platform for technical discussion, information and experience sharing, and the generation of new concepts, inventions, and recommendations for the betterment of Bangladesh. VOE is currently working as a collaborative partner of the Institution of Engineers, Bangladesh-IEB, Dhaka Centre. </p>
+    <div class="lg:my-16 my-8 lg:flex justify-between container mx-auto">
+      
+      <div class="lg:w-2/4 sm:mx-2 mx-2 lg:mx-auto">
+        <h2 class="lg:text-5xl text-3xl font-bold pb-3">About Us</h2>
+        <p class="my-2 text-md fo">The Voice of Engineers-Bangladesh (VOE) is an online platform that promotes Bangladeshi engineers' contributions, struggles, and sacrifices through daily news, alerts, and online programs. This is a platform for technical discussion, information and experience sharing, and the generation of new concepts, inventions, and recommendations for the betterment of Bangladesh. VOE is currently working as a collaborative partner of the Institution of Engineers, Bangladesh-IEB, Dhaka Centre. </p>
         <p class="my-2">VOE aspires to create a broad professional network among Bangladeshi engineers while also advocating for their rights. Our main goal in achieving our vision and missions is to create unity and connectivity among Bangladeshi engineers through our social media platforms and website.</p>
       </div>
       <div>
-        <img class="w-10/12 mx-auto" :src="BannerImage" />
+        <img class="w-10/12 mx-auto pt-8" :src="BannerImage" />
       </div>
       
     </div>
