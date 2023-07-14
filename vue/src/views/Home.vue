@@ -1,4 +1,6 @@
 <script setup>
+import About from './About.vue';
+
 </script>
 <template>
   <div class="bg-white z-0 d-none">
@@ -30,7 +32,7 @@
     </div>
 </template>
 
-<script setup>
+<script >
 
 import BannerImage from '../assets/banner.jpeg'
 

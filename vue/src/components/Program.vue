@@ -1,6 +1,5 @@
 <script>
 import { TheCard } from 'flowbite-vue';
-import image from "../assets/1.jpeg"
 export default {
     components: {
         TheCard
@@ -16,8 +15,8 @@ export default {
     
 <template>
     <the-card href="#" variant="horizontal"  img-alt="Desk">
-        <img :src="image"/>
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <img :src="program.image"/>
+        <h5 class="mb-2 text-2xl pt-4 font-bold tracking-tight text-gray-900 dark:text-white">
             {{ program.name }}
         </h5>
         <p class="font-normal text-gray-700 dark:text-gray-400">
