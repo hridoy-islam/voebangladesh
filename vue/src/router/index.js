@@ -6,6 +6,17 @@ import Ambassadors from '../views/Ambassadors.vue';
 import Contact from '../views/Contact.vue';
 import Home from '../views/Home.vue';
 import Programs from '../views/Programs.vue';
+import HelpTheNation from '../views/HelpTheNation.vue';
+import EncourageEntrepreneurship from '../views/EncourageEntrepreneurship.vue';
+import TechnicalKnowHow from '../views/TechnicalKnowHow.vue';
+import ContributionStories from '../views/ContributionStories.vue';
+import LadyTalk from '../views/LadyTalk.vue';
+import HopeTalk from '../views/HopeTalk.vue';
+import TalkTable from '../views/TalkTable.vue';
+import SpecialEpisode from '../views/SpecialEpisode.vue';
+import EngineersNews from '../views/EngineersNews.vue';
+import CulturalHour from '../views/CulturalHour.vue';
+import GuestHour from '../views/GuestHour.vue';
 
 const routes = [
     {
@@ -19,12 +30,22 @@ const routes = [
             { path: '/advisors', name: 'advisors', component: Advisors },
             { path: '/ambassadors', name: 'ambassadors', component: Ambassadors },
             { path: '/programs', name: 'programs', component: Programs },
+            { path: '/programs/help-the-nation', name: 'helpTheNation', component: HelpTheNation },
+            { path: '/programs/encourage-entrepreneurship', name: 'encourageEntrepreneurship', component: EncourageEntrepreneurship }, 
+            { path: '/programs/technical-know-how', name: 'technicalKnowHow', component: TechnicalKnowHow },
+            { path: '/programs/contribution-stories', name: 'contributionStories', component: ContributionStories },
+            { path: '/programs/lady-talk', name: 'ladyTalk', component: LadyTalk },
+            { path: '/programs/hope-talk', name: 'hopeTalk', component: HopeTalk },
+            { path: '/programs/talk-table', name: 'talkTable', component: TalkTable },
+            { path: '/programs/special-episode', name: 'specialEpisode', component: SpecialEpisode },
+            { path: '/programs/engineers-news', name: 'engineersNews', component: EngineersNews },
+            { path: '/programs/cultural-hour', name: 'culturalHour', component: CulturalHour },
+            { path: '/programs/guest-hour', name: 'guestHour', component: GuestHour },
             { path: '/contact', name: 'contact', component: Contact },
         ]
     },
 
 ];
-
 
 const router = createRouter({
     history: createWebHistory(),
