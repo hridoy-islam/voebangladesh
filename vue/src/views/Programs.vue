@@ -10,12 +10,15 @@ import PageTitle from '../components/PageTitle.vue';
 import Program from '../components/Program.vue';
 import img1 from '../assets/1.jpeg';
 import img2 from '../assets/img2.jpeg';
-import img3 from '../assets/img3.jpeg';
-import img4 from '../assets/img4.jpeg';
-import img5 from '../assets/img5.jpeg';
-import img6 from '../assets/img6.jpeg';
-import img7 from '../assets/img7.jpeg';
-import img8 from '../assets/img8.jpeg';
+import img3 from '../assets/contribution_1.jpg';
+import img4 from '../assets/help-gas.jpg';
+import img5 from '../assets/hope_1.jpg';
+import img6 from '../assets/table_1.jpg';
+import img7 from '../assets/lady_talk_1.jpg';
+import img8 from '../assets/special_1.jpg';
+import news_1 from '../assets/news_1.jpg';
+import cultural_1 from '../assets/cultural_1.jpg';
+
 export default {
     components: {
       PageTitle,
@@ -74,23 +77,23 @@ export default {
                     url: "hope-talk"
                 },
                 {
-                  image: img3,
+                  image: news_1,
                     name: "VOE:: Engineers News",
                     description: "whats going on in the engineering community, in companies, and in engineering schools; Technical developments, construction news, engineer welfare, and engineer integrity issues are all covered in this section. Engineers news is made up of all of these aspects.",
                     url: "engineers-news"
                 },
                 {
-                  image: img5,
+                  image: cultural_1,
                     name: "Engineers Adda:: Cultural Hour",
                     description: "Engineers must, in fact, engage in recreational activities to break the 9 to 5 cycle. Culture programs can be a great way to increase the intimacy among the community. ",
                     url: "cultural-hour"
-                },
-                {
-                  image: img6,
-                    name: "VOE Adda:: Guest Hour",
-                    description: "The guest hour creates an opportunity to listen about lifestyle, culture, spiritual & moral suggestions, as well as health tips, religious speeches of people from every sphere.",
-                    url: "guest-hour"
                 }
+                // {
+                //   image: img6,
+                //     name: "VOE Adda:: Guest Hour",
+                //     description: "The guest hour creates an opportunity to listen about lifestyle, culture, spiritual & moral suggestions, as well as health tips, religious speeches of people from every sphere.",
+                //     url: "guest-hour"
+                // }
             ]
         };
     },

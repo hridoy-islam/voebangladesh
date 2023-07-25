@@ -17,31 +17,32 @@ function showModal() {
   isShowModal.value = true
 }
 const items = [
+    
     {
       id: "1",
-      thumbnail: img4,
-      name: "Most Common Mistakes In Online World & Tips For Cyber Security",
-      video: "https://www.youtube.com/embed/1GGLvxjOkKI",
-    },
-    {
-      id: "2",
       thumbnail: helpgas,
       name: "Gas Distribution System and Safety Issues",
       video: "https://www.youtube.com/embed/1GGLvxjOkKI",
       
     },
     {
-      id: "3",
+      id: "2",
       thumbnail: helpmeter,
       name: "Prepaid Electricity Meter- Prospects, Challenges & Public Awareness",
       video: "https://www.youtube.com/embed/1GGLvxjOkKI",
     },
     {
-      id: "4",
+      id: "3",
       thumbnail: helpac,
       name: "AC Blast; Reasons, Remedies and Safety Awareness",
       video: "https://www.youtube.com/embed/1GGLvxjOkKI",
-    }
+    },
+    {
+      id: "4",
+      thumbnail: img4,
+      name: "Most Common Mistakes In Online World & Tips For Cyber Security",
+      video: "https://www.youtube.com/embed/1GGLvxjOkKI",
+    },
     
 ]
 

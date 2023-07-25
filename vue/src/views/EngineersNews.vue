@@ -3,6 +3,7 @@ import { TheCard } from 'flowbite-vue';
 import { Modal } from 'flowbite-vue'
 import { ref } from 'vue'
 import PageTitle from '../../src/components/PageTitle.vue';
+import news_1 from '../assets/news_1.jpg';
 
 
 const isShowModal = ref(false)
@@ -12,37 +13,32 @@ function closeModal() {
 function showModal() {
   isShowModal.value = true
 }
-
-
+const items = [
+    {
+      id: "1",
+      thumbnail: news_1,
+      name: "মুজিব বর্ষ ও স্বাধীনতার সুবর্ণ জয়ন্তী উপলক্ষে আয়োজিত ব্যাডমিন্টন টুর্নামেন্ট ২০২১",
+      video: "https://www.youtube.com/embed/1GGLvxjOkKI",
+    }
+    
+]
 
 </script>
 
 
 <template>
 <PageTitle title="Engineers News" />
-    <div class="grid grid-cols-3 gap-6 container mx-auto my-12">
-      <the-card @click="showModal" class="hover:cursor-pointer">
-        <img src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+    <div 
+     class="grid grid-cols-3 gap-6 container mx-auto my-12">
+      <the-card @click="showModal" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
+        <img :src="item.thumbnail"/>
+        <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{item.name}}</h5>
         <p class="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+          {{ item.description }}
         </p>
-      </the-card>
-      <the-card @click="showModal" class="hover:cursor-pointer">
-        <img src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-        </p>
-      </the-card>
-      <the-card @click="showModal" class="hover:cursor-pointer">
-        <img src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-        </p>
-      </the-card>
         
+       
+      </the-card>
       <div class="Modal">
         <Modal :size="full" v-if="isShowModal" @close="closeModal">
           
@@ -51,5 +47,9 @@ function showModal() {
           </template>
             </Modal>
       </div>
+      
+
+        
+      
     </div>
 </template>

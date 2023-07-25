@@ -11,6 +11,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "v-video-embed": "^1.0.8"
+        "v-video-embed": "^1.0.8",
+        "vuex": "^4.0.2"
     }
 }
