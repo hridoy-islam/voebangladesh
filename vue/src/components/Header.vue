@@ -1,14 +1,17 @@
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Our Programms', href: '/programs' },
-  { name: 'Our Advisors', href: '/advisors' },
-  { name: 'Our Ambassadors', href: '/ambassadors' },
+  { name: 'About Us', href: '/about' },
+  { name: 'Programms', href: '/programs' },
+  { name: 'Advisors', href: '/advisors' },
+  { name: 'Ambassadors', href: '/ambassadors' },
+  { name: 'Publication', href: '/publication' },
+  { name: 'Updates', href: '/updates' },
+  { name: 'Subscribe', href: '/subscribe' },
   { name: 'Contact', href: '/contact' },
 ]
 </script>
@@ -25,18 +28,17 @@ const navigation = [
           </DisclosureButton>
         </div>
         <div class="flex flex-shrink-0 items-center">
-            <img class="h-20 w-auto" src="../assets/logo.jpg" alt="Your Company" />
+            <router-link to="/"><img class="h-20 w-auto" src="../assets/logo.jpg" alt="Your Company" /></router-link>
           </div>
         <div class="flex flex-1 items-center justify-end sm:items-stretch sm:justify-end">
-          
+
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex  space-x-4">
               <router-link v-for="item in navigation" :key="item.name" :to="item.href" :class="[item.current ? 'bg-secondary text-white' : 'text-black hover:bg-secondary hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</router-link>
-              
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
 
@@ -47,23 +49,6 @@ const navigation = [
     </DisclosurePanel>
   </Disclosure>
 </template>
-
-
-
-
-<!-- <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
-
-const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Our Programms', href: '/programs' },
-  { name: 'Our Advisors', href: '/advisors' },
-  { name: 'Our Ambassadors', href: '/ambassadors' },
-  { name: 'Contact', href: '/contact' },
-]
-</script> -->
 
 
 

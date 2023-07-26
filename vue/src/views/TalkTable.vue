@@ -29,30 +29,30 @@ const items = [
       thumbnail: table_2,
       name: "Prospects & Challenges Of Cross Border Power Trade With Neighboring Countries",
       video: "https://www.youtube.com/embed/1GGLvxjOkKI",
-      
+
     },
     {
       id: "3",
       thumbnail: table_3,
       name: "Exploring The Engineers Foundation",
       video: "https://www.youtube.com/embed/1GGLvxjOkKI",
-      
+
     },
     {
       id: "4",
       thumbnail: table_4,
       name: "Journey to Google from Bangladesh -Engr. Anik Sarker",
       video: "https://www.youtube.com/embed/1GGLvxjOkKI",
-      
+
     },
     {
       id: "5",
       thumbnail: table_5,
       name: "Exploring The Institute of Energy and Sustainable Development- IESD, BUET",
       video: "https://www.youtube.com/embed/1GGLvxjOkKI",
-      
+
     }
-    
+
 ]
 
 </script>
@@ -60,7 +60,7 @@ const items = [
 
 <template>
 <PageTitle title="Talk Table" />
-    <div 
+    <div
      class="grid grid-cols-3 gap-6 container mx-auto my-12">
       <the-card @click="showModal" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
         <img :src="item.thumbnail"/>
@@ -68,20 +68,20 @@ const items = [
         <p class="font-normal text-gray-700 dark:text-gray-400">
           {{ item.description }}
         </p>
-        
-       
+
+
       </the-card>
       <div class="Modal">
         <Modal :size="full" v-if="isShowModal" @close="closeModal">
-          
+
           <template #body>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/1GGLvxjOkKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </template>
             </Modal>
       </div>
-      
 
-        
-      
+
+
+
     </div>
 </template>

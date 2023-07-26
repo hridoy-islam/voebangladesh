@@ -1,16 +1,22 @@
 import { createStore } from "vuex";
 
 const store = createStore({
-    state : {
-        url: "http://youtube.com",
+    state: {
+        url: "",
         modal: false,
     },
     mutations: {
-        setUrl : (state, data ) => {
+        setUrl: (state, data) => {
             state.url = data
+            console.log(data)
         },
-        setModal : (state) => {
-            state.modal != modal
+        openModal: (state) => {
+            state.modal = true;
+            console.log(state.modal)
+        },
+        closeModal: (state) => {
+            state.modal = false;
+            console.log(state.modal)
         }
     }
 });
