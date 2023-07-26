@@ -17,13 +17,13 @@ const items = [
         id: "1",
         thumbnail: cultural_1,
         name: "সাম্য-দ্রোহ ও মানবতার কবি কাজী নজরুল ইসলামের ১২২ তম জন্মবার্ষিকীতে বিনম্র শ্রদ্ধা।",
-        video: "https://www.youtube.com/embed/1GGLvxjOkKI",
+        video: "https://www.youtube.com/embed/0cJFycGrcR8",
     },
     {
         id: "1",
         thumbnail: cultural_2,
         name: "রাতের তারা আমায় কি তুই বলতে পারিস কোথায় আছে কেমন আছে মা?- ইঞ্জিঃ কাজী আব্দুল কাইয়ুম।",
-        video: "https://www.youtube.com/embed/1GGLvxjOkKI",
+        video: "https://www.youtube.com/embed/EJLXRK6pU9Q",
     }
 
 ]
