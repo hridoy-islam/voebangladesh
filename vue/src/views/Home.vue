@@ -1,18 +1,27 @@
-<script setup>
-
+<script >
+import BannerImage from '../assets/banner.jpeg';
+import HeroImage from '../assets/hero_banner.png';
+import AboutMission from '../components/AboutMission.vue';
+import video from '../assets/video.mp4';
+import whatsapp from "../assets/whatsapp.jpg"
+export default {
+  name: 'Home',
+    components: { AboutMission },
+    data() {
+        return {
+          BannerImage,
+          HeroImage,
+          video,
+          whatsapp
+        }
+    },
+}
 </script>
 <template>
+    
     <div>
-        <!-- <div>
-            <VueSlickCarousel :arrows="true" :dots="true">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-            </VueSlickCarousel>
-        </div> -->
-        <div class="bg-white z-0 d-none">
-            <div class="relative isolate bg-gradient-to-r from-primary to-secondary px-6 pt-14 lg:px-8">
+         <div class="bg-white z-0 d-none">
+            <!-- <div class="relative isolate bg-gradient-to-r from-primary to-secondary px-6 pt-14 lg:px-8">
 
                 <div class="mx-auto max-w-2xl py-12 sm:py-20 lg:py-20">
 
@@ -22,19 +31,23 @@
                         <div class="mt-10 flex items-center justify-center gap-x-6">
                             <router-link to="/about"
                                 class="rounded-md bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">About
-                                US</router-link>
+                               US</router-link>
                             <router-link to="/programs" class="text-sm font-semibold leading-6 text-white">Our Programms
                                 <span aria-hidden="true">→</span></router-link>
                         </div>
                     </div>
                 </div>
+            </div> -->
+            <div>
+                <img class="" :src="HeroImage" />
             </div>
+
         </div>
-        <div class="lg:my-16 my-8 lg:flex justify-between container mx-auto">
+        <div class="lg:my-16 my-8 lg:flex justify-between items-center container mx-auto">
 
             <div class="lg:w-2/4 sm:mx-2 mx-2 lg:mx-auto">
-                <h2 class="lg:text-3xl text-2xl font-bold pb-3">Voice of Engineers Bangladesh</h2>
-                <p class="my-2 text-md fo">The Voice of Engineers-Bangladesh (VOE) is an online platform that promotes
+                <h2 class="lg:text-4xl text-2xl font-bold pb-3">Voice of Engineers Bangladesh</h2>
+                <p class="my-3 text-md fo">The Voice of Engineers-Bangladesh (VOE) is an online platform that promotes
                     Bangladeshi engineers contributions, struggles, and sacrifices through daily news, alerts, and online
                     programs. This is a platform for technical discussion, information and experience sharing, and the
                     generation of new concepts, inventions, and recommendations for the betterment of Bangladesh. VOE is
@@ -43,22 +56,26 @@
                 </p>
             </div>
             <div>
-                <img class="w-10/12 mx-auto pt-8" :src="BannerImage" />
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6XjPX7dKcVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
+        </div>
+        <div>
+            <AboutMission/>
+        </div>
+        <div class="container mx-auto my-12 ">
+          <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto">
+          <h2 class="text-4xl font-bold text-center">Our Updates</h2>
+          <p class="my-2 text-lg font-normal pt-3 text-justify">Currently, we are running eleven different types of Virtual Programs in a sequential order, each with its own type name and program subject. We have used social media to share Engineer’s optimistic feelings, accomplishments, sacrifice, and effort. We’re also working along with the IEB Dhaka Centre’s ICT-related standing committee to host online Tech-Talk services. </p>
+      </div>
+        </div>
+        <div>
+            <a class="fixed bottom-20 right-10 bg-none" href="https://wa.me/01512333555"><img class="w-20 pr-4" :src="whatsapp" alt=""></a> 
+        </div>
+        <div>
         </div>
     </div>
 </template>
 
-<script >
 
-import BannerImage from '../assets/banner.jpeg'
-
-export default {
-    data() {
-        return {
-            BannerImage
-        }
-    },
-}
-</script>

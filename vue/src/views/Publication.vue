@@ -8,7 +8,7 @@
         <h5 class="mb-2 text-2xl pt-4 font-bold tracking-tight text-gray-900 dark:text-white">
 
         </h5>
-        <a :href="voemagazineDemo" class="font-normal text-white bg-primary py-2 px-10 w-full block text-center" >
+        <a :href="voemagazineDemo" download="download" class="font-normal text-white bg-primary py-2 px-10 w-full block text-center" >
             Download
         </a>
     </router-link>
