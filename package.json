@@ -12,6 +12,7 @@
     },
     "dependencies": {
         "v-video-embed": "^1.0.8",
+        "vue-awesome-swiper": "^5.0.1",
         "vue-slick-carousel": "^1.0.6",
         "vuex": "^4.0.2"
     }

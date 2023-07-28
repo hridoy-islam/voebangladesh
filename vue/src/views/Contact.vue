@@ -62,13 +62,13 @@
           <p class="text-md my-3 flex items-center font-semibold">
              <a href="https://www.youtube.com/@voe.bangladesh"><img class="w-12 pr-4" :src="utube" alt=""></a> VOEBD</p>
           <p class="text-md my-3 flex items-center font-semibold">
-             <a href=""><img class="w-12 pr-4" :src="whatsapp" alt=""></a> +8801512-333-555,   +8801512-333-666</p>
+             <a href="https://wa.me/01512333555"><img class="w-12 pr-4" :src="whatsapp" alt=""></a> +8801512-333-555,   +8801512-333-666</p>
           <p class="text-md my-3 flex items-center font-semibold">
-             <a href=""><img class="w-12 pr-4" :src="mobile" alt=""></a> +8801512-333-555 (FRONT DESK) </p>
+             <a href="tel:8801512444888"><img class="w-12 pr-4" :src="mobile" alt=""></a> +8801512-333-555 (FRONT DESK) </p>
           <p class="text-md my-3 flex items-center font-semibold">
-             <a href=""><img class="w-12 pr-4" :src="mail" alt=""></a> VOE.BANGLADESH@GMAIL.COM </p>
+             <a href="mailto:voe.bangladesh@gmail.com"><img class="w-12 pr-4" :src="mail" alt=""></a> VOE.BANGLADESH@GMAIL.COM </p>
           <p class="text-md my-3 flex items-center font-semibold">
-             <a href=""><img class="w-12 pr-4" :src="fb_group" alt=""></a> WWW.FACEBOOK.COM/GROUPS/VOE.BANGLADESH</p>
+             <a href="http://www.facebook.com/groups/VoE.Bangladesh"><img class="w-12 pr-4" :src="fb_group" alt=""></a> WWW.FACEBOOK.COM/GROUPS/VOE.BANGLADESH</p>
         </div>
       </div>
       
