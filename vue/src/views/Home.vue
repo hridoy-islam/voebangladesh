@@ -1,21 +1,34 @@
 <script >
 import BannerImage from '../assets/banner.jpeg';
 import HeroImage from '../assets/hero_banner.png';
+import theTimeline from '../assets/thetimeline.jpg';
+import { Carousel } from 'flowbite-vue'
 import AboutMission from '../components/AboutMission.vue';
+import SlickSliderComponent from '../components/SlickSliderComponent.vue';
 import video from '../assets/video.mp4';
 import whatsapp from "../assets/whatsapp.jpg"
 export default {
   name: 'Home',
-    components: { AboutMission },
+    components: { AboutMission, SlickSliderComponent },
     data() {
         return {
           BannerImage,
-          HeroImage,
           video,
           whatsapp
         }
     },
 }
+
+const pictures = [
+  {
+    'src': HeroImage,
+    'alt': 'Picture 1',
+  },
+  {
+    'src': theTimeline,
+    'alt': 'Picture 2',
+  }
+]
 </script>
 <template>
     
@@ -38,8 +51,8 @@ export default {
                     </div>
                 </div>
             </div> -->
-            <div>
-                <img class="" :src="HeroImage" />
+            <div class="">
+                <SlickSliderComponent/>
             </div>
 
         </div>
@@ -65,10 +78,13 @@ export default {
             <AboutMission/>
         </div>
         <div class="container mx-auto my-12 ">
-          <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto">
+            <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto">
           <h2 class="text-4xl font-bold text-center">Our Updates</h2>
           <p class="my-2 text-lg font-normal pt-3 text-justify">Currently, we are running eleven different types of Virtual Programs in a sequential order, each with its own type name and program subject. We have used social media to share Engineer’s optimistic feelings, accomplishments, sacrifice, and effort. We’re also working along with the IEB Dhaka Centre’s ICT-related standing committee to host online Tech-Talk services. </p>
-      </div>
+            </div>
+            <div>
+                
+            </div>
         </div>
         <div>
             <a class="fixed bottom-20 right-10 bg-none" href="https://wa.me/01512333555"><img class="w-20 pr-4" :src="whatsapp" alt=""></a> 
