@@ -58,7 +58,7 @@ const pictures = [
         </div>
         <div class="lg:my-16 my-8 lg:flex justify-between items-center container mx-auto">
 
-            <div class="lg:w-2/4 sm:mx-2 mx-2 lg:mx-auto">
+            <div class="lg:w-6/12 sm:mx-2 mx-2 lg:mx-auto">
                 <h2 class="lg:text-4xl text-2xl font-bold pb-3">Voice of Engineers Bangladesh</h2>
                 <p class="my-3 text-md fo">The Voice of Engineers-Bangladesh (VOE) is an online platform that promotes
                     Bangladeshi engineers contributions, struggles, and sacrifices through daily news, alerts, and online
@@ -68,9 +68,9 @@ const pictures = [
                     Centre.
                 </p>
             </div>
-            <div>
+            <div class="lg:w-5/12">
                 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/6XjPX7dKcVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="lg:w-full w-11/12 mx-auto" height="315" src="https://www.youtube.com/embed/6XjPX7dKcVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
         </div>
@@ -87,7 +87,7 @@ const pictures = [
             </div>
         </div>
         <div>
-            <a class="fixed bottom-20 right-10 bg-none" href="https://wa.me/01512333555"><img class="w-20 pr-4" :src="whatsapp" alt=""></a> 
+            <a class="fixed bottom-20 right-10 bg-none z-50" href="https://wa.me/01512333555"><img class="w-20 pr-4" :src="whatsapp" alt=""></a> 
         </div>
         <div>
         </div>

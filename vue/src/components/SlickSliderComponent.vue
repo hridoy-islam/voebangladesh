@@ -17,4 +17,41 @@ const pictures = [
 <template>
   <Carousel class="" :pictures="pictures"></Carousel>
 </template>
+<style>
+/* @media (min-width: 1020px){
+.overflow-hidden {
+    height: 36rem !important;
+}
+} */
+@media (min-width: 1120px){
+.h-56 {
+    height: 36rem !important;
+}
+}
+@media (mAX-width: 1119px){
+  .h-56 {
+    height: 30rem !important;
+}
+}
+@media (max-width: 1020px){
+  .h-56 {
+    height: 24rem !important;
+}
+}
+@media (max-width: 840px){
+  .h-56 {
+    height: 20rem !important;
+}
+}
+@media (max-width: 600px){
+  .h-56 {
+    height: 14rem !important;
+}
+}
+@media (max-width: 450px){
+  .h-56 {
+    height: 11rem !important;
+}
+}
+</style>
 
