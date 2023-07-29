@@ -48,8 +48,8 @@ export default {
            <aboutDetails v-for="(data, x) in aboutDetails" :key="x" :about="data" />
         </div>
         <div class="bg-gray-100">
-          <div class="container mx-auto my-24 ">
-          <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto  p-16">
+          <div class="container mx-auto lg:my-24 my-6">
+          <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto  lg:p-16 p-4">
           <h2 class="text-4xl font-bold text-center">What are we doing Now</h2>
           <p class="my-2 text-lg font-normal pt-3 text-justify">Currently, we are running eleven different types of Virtual Programs in a sequential order, each with its own type name and program subject. We have used social media to share Engineer’s optimistic feelings, accomplishments, sacrifice, and effort. We’re also working along with the IEB Dhaka Centre’s ICT-related standing committee to host online Tech-Talk services. </p>
           <p class="my-2 text-lg font-normal pt-3 text-justify">
