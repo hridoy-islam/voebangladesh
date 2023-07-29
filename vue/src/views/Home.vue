@@ -5,11 +5,12 @@ import theTimeline from '../assets/thetimeline.jpg';
 import { Carousel } from 'flowbite-vue'
 import AboutMission from '../components/AboutMission.vue';
 import SlickSliderComponent from '../components/SlickSliderComponent.vue';
+import UpdateGallery from '../components/UpdateGallery.vue';
 import video from '../assets/video.mp4';
 import whatsapp from "../assets/whatsapp.jpg"
 export default {
   name: 'Home',
-    components: { AboutMission, SlickSliderComponent },
+    components: { AboutMission, SlickSliderComponent, UpdateGallery },
     data() {
         return {
           BannerImage,
@@ -80,10 +81,10 @@ const pictures = [
         <div class="container mx-auto my-12 ">
             <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto">
           <h2 class="text-4xl font-bold text-center">Our Updates</h2>
-          <p class="my-2 text-lg font-normal pt-3 text-justify">Currently, we are running eleven different types of Virtual Programs in a sequential order, each with its own type name and program subject. We have used social media to share Engineer’s optimistic feelings, accomplishments, sacrifice, and effort. We’re also working along with the IEB Dhaka Centre’s ICT-related standing committee to host online Tech-Talk services. </p>
+          <!-- <p class="my-2 text-lg font-normal pt-3 text-justify">Currently, we are running eleven different types of Virtual Programs in a sequential order, each with its own type name and program subject. We have used social media to share Engineer’s optimistic feelings, accomplishments, sacrifice, and effort. We’re also working along with the IEB Dhaka Centre’s ICT-related standing committee to host online Tech-Talk services. </p> -->
             </div>
             <div>
-                
+                <UpdateGallery/>
             </div>
         </div>
         <div>
