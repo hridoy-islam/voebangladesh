@@ -17,7 +17,7 @@ import { Dropdown, ListGroup, ListGroupItem } from 'flowbite-vue'
           <router-link class="text-lg" to="/publication">Publication</router-link>
           <router-link class="text-lg" to="/updates">Updates</router-link>
           
-          <dropdown class="z-50" text="Subscribe">
+          <dropdown class="z-50 focus:ring-0" text="Subscribe">
               <list-group>
                 <list-group-item>
                   <router-link class="text-lg" to="/subscribe">Subscribe Us</router-link>
@@ -37,20 +37,32 @@ import { Dropdown, ListGroup, ListGroupItem } from 'flowbite-vue'
 .bg-blue-700{
   background: none;
   font-size: 18px;
+  font-weight: 500;
   color: black;
   padding: 0;
 }
 .bg-blue-700:hover{
  background: none;
 }
-/* .divide-y{
-  bottom: -130px !important;
-} */
+.bg-blue-700:focus{
+ 
+}
+
+ul a{
+  padding: 4px 0;
+}
 .w-48{
-  width: 250px ;
+  width: 230px ;
 }
 .w-48 li{
-  padding: 20px 15px;
+  padding: 10px 15px;
+}
+
+@media (max-width: 680px){
+  .bg-blue-700{
+  font-weight: 400;
+  padding: 3px 0;
+}
 }
 </style>
 

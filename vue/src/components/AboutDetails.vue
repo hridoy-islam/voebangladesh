@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <the-card href="#" class="" variant="horizontal" >
+        <the-card href="#" class="about" variant="horizontal" >
             <div class="">
                 <img class="w-20 h-20" :src="about.image"/>
             </div>
@@ -28,5 +28,7 @@ export default {
 }
 </script>
 <style>
-
+.about :hover{
+ background: #fff;
+}
 </style>

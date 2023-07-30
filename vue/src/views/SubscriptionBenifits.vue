@@ -1,5 +1,6 @@
 <template lang="">
     <PageTitle title='Subscription Benefits' />
+    <h3 class="lg:text-8xl text-5xl text-center pt-10 font-bold">Coming Soon</h3>
     <div class="grid lg:grid-cols-4 gap-6 container lg:mx-auto my-16">
         <div class="p-4 bg-gray-100 rounded-xl lg:mx-0 mx-2">
             <a href="https://www.dailymessenger.net/bangla/bangladesh/news/5703"><img :src="resort" alt="News_DailyMessenger"/></a>

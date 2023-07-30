@@ -7,7 +7,6 @@ import AboutMission from '../components/AboutMission.vue';
 import SlickSliderComponent from '../components/SlickSliderComponent.vue';
 import UpdateGallery from '../components/UpdateGallery.vue';
 import video from '../assets/video.mp4';
-import whatsapp from "../assets/whatsapp.jpg"
 export default {
   name: 'Home',
     components: { AboutMission, SlickSliderComponent, UpdateGallery },
@@ -15,7 +14,6 @@ export default {
         return {
           BannerImage,
           video,
-          whatsapp
         }
     },
 }
@@ -68,9 +66,6 @@ const pictures = [
             <div>
                 <UpdateGallery/>
             </div>
-        </div>
-        <div>
-            <a class="fixed bottom-20 right-10 bg-none z-50" href="https://wa.me/01512333555"><img class="w-20 pr-4" :src="whatsapp" alt=""></a> 
         </div>
         <div>
         </div>
