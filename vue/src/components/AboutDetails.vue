@@ -1,8 +1,8 @@
 <template lang="">
     <div>
-        <the-card href="#" variant="horizontal" >
-            <div>
-                <img class="w-24 h-24" :src="about.image"/>
+        <the-card href="#" class="" variant="horizontal" >
+            <div class="">
+                <img class="w-20 h-20" :src="about.image"/>
             </div>
         <h5 class="mb-2 text-2xl pt-4 font-bold tracking-tight text-gray-900 dark:text-white">
             {{ about.name }}
@@ -27,3 +27,6 @@ export default {
     }
 }
 </script>
+<style>
+
+</style>

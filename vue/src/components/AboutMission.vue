@@ -18,12 +18,12 @@ export default {
                 {
                   image:vission,
                     name: 'Our Vision',
-                    title: 'Our vision is to be a loud voice for Engineers Rights and Dignities in Bangladesh. In the future,  through our Technical Discussions, Idea and solution hunting programs, we will be able to assist the Government with the cooperation of IEB.'
+                    title: 'Our vision is to be a loud voice for Engineers Rights and Dignities in Bangladesh.In the future, through our Technical Discussions, Idea and hunting programs, we will be able to assist the Government with the cooperation of IEB.'
                 },
                 {
                   image:advisor,
                     name: 'Our Advisors',
-                    title: 'We are fortunate to have the assistance and advice of our Advisors as we continue on the path of Voice of Engineers Bangladesh. Our advisors are divided into two categories: Honorary Advisors started their careers before that.'
+                    title: 'We are fortunate to have the assistance and advice of our Advisors as we continue of Voice of Engineers Bangladesh.Our advisors are divided into two categories: Honorary Advisors started their careers before that.'
                 },
                 
                 {
