@@ -12,22 +12,19 @@
             <h3></h3>
         </div>
         <div class="p-4 bg-gray-100 rounded-xl flex items-center">
-            <a href="https://www.dailyvorerpata.com/details.php?id=88105"><img :src="News_dailyvorerpata" alt="News_dailyvorerpata"/></a>
+            <a href="https://www.dailyvorerpata.com/details.php?id=88105"><img :src="News_Dailymessenger" alt="News_dailyvorerpata"/></a>
         </div>
         <div class="p-4 bg-gray-100 rounded-xl flex items-center">
-            <a href="https://ekattor.tv/news/article?article_id=39220"><img :src="News_ekattor" alt="News_ekattor"/></a>
+            <a href="https://ekattor.tv/news/article?article_id=39220"><img :src="News_Dailymessenger" alt="News_ekattor"/></a>
         </div>
         <div class="p-4 bg-gray-100 rounded-xl flex items-center">
-            <a href="https://www.jamuna.tv/news/430374"><img :src="News_jamuna" alt="News_jamuna"/></a>
+            <a href="https://www.jamuna.tv/news/430374"><img :src="News_Dailymessenger" alt="News_jamuna"/></a>
         </div>
         
     </div>
 </template>
 <script setup>
-import News_Dailymessenger from "../assets/";
-import News_dailyvorerpata from "../assets/News_dailyvorerpata.png";
-import News_ekattor from "../assets/News_ekattor.png";
-import News_jamuna from "../assets/News_jamuna.png";
+import News_Dailymessenger from "../assets/News_Dailymessenger.png";
 </script>
 <style lang="">
     
