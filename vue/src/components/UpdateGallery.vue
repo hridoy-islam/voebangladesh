@@ -3,9 +3,9 @@ import News_Dailymessenger from "../assets/News_Dailymessenger.png";
 import News_dailyvorerpata from "../assets/News_dailyvorerpata.png";
 import News_ekattor from "../assets/News_ekattor.png";
 import News_jamuna from "../assets/News_jamuna.png";
-import News_Sarabangla from "../assets/News_Sarabangla.png";
-import News_Somokal from "../assets/News_Somokal.png";
-import news_Somoy from "../assets/news_Somoy.png";
+import News_Sarabangla from "../assets/News_sarabangla.png";
+import News_Somokal from "../assets/News_somokal.png";
+import news_Somoy from "../assets/news_somoy.png";
 import News_ss from "../assets/News_ss.png";
 </script>
 

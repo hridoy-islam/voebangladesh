@@ -50,7 +50,7 @@ const pictures = [
 }
 @media (max-width: 450px){
   .h-56 {
-    height: 11rem !important;
+    height: 10rem !important;
 }
 }
 </style>
