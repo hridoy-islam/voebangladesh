@@ -1,13 +1,13 @@
 <template>
-  <PageTitle title="Contact" />
-  <div class=" bg-white px-24 py-24 sm:py-24 lg:px-8 container mx-auto">
-    <div class="flex justify-between ">
-      <div class="w-6/12">
+  <PageTitle title="Contact Us" />
+  <div class=" bg-white py-12 sm:py-12 lg:px-8 container mx-auto">
+    <div class="lg:flex justify-between ">
+      <div class="lg:w-6/12 lg:mx-0 w-11/12 mx-auto">
           <div class="mx-auto text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Now</h2>
             
           </div>
-          <form action="#" method="POST" class="mx-auto mt-4  sm:mt-10">
+          <form action="#" method="POST" class="mx-auto mt-3  sm:mt-10">
             <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
@@ -46,7 +46,7 @@
             </div>
           </form>
       </div>
-      <div class="w-6/12 lg:ml-36 text-left">
+      <div class="lg:w-6/12 lg:mx-0 w-11/12 mx-auto lg:pt-0 pt-12 lg:ml-36 lg:text-left text-center">
         <h3 class="text-4xl font-bold pb-8">JOIN OUR TEAM AS</h3>
         <p class="text-lg pb-1 font-medium">HONORARY SENIOR ADVISOR</p>
         <p class="text-lg pb-1 font-medium">HONORARY ADVISOR</p>
@@ -68,7 +68,7 @@
           <p class="text-md my-3 flex items-center font-semibold">
              <a href="mailto:voe.bangladesh@gmail.com"><img class="w-12 pr-4" :src="mail" alt=""></a> VOE.BANGLADESH@GMAIL.COM </p>
           <p class="text-md my-3 flex items-center font-semibold">
-             <a href="http://www.facebook.com/groups/VoE.Bangladesh"><img class="w-12 pr-4" :src="fb_group" alt=""></a> WWW.FACEBOOK.COM/GROUPS/VOE.BANGLADESH</p>
+             <a href="http://www.facebook.com/groups/VoE.Bangladesh"><img class="w-12 pr-4" :src="fb_group" alt=""></a>Facebook.com/groups/VoE.Bangladesh</p>
         </div>
       </div>
       

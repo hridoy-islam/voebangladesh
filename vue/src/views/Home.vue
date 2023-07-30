@@ -35,23 +35,6 @@ const pictures = [
     
     <div>
          <div class="bg-white z-0 d-none">
-            <!-- <div class="relative isolate bg-gradient-to-r from-primary to-secondary px-6 pt-14 lg:px-8">
-
-                <div class="mx-auto max-w-2xl py-12 sm:py-20 lg:py-20">
-
-                    <div class="text-center">
-                        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Voice of Engineers Bangladesh
-                        </h1>
-                        <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <router-link to="/about"
-                                class="rounded-md bg-secondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">About
-                               US</router-link>
-                            <router-link to="/programs" class="text-sm font-semibold leading-6 text-white">Our Programms
-                                <span aria-hidden="true">→</span></router-link>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="">
                 <SlickSliderComponent/>
             </div>
@@ -81,7 +64,6 @@ const pictures = [
         <div class="container mx-auto my-12 ">
             <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto">
           <h2 class="text-4xl font-bold text-center">Our Updates</h2>
-          <!-- <p class="my-2 text-lg font-normal pt-3 text-justify">Currently, we are running eleven different types of Virtual Programs in a sequential order, each with its own type name and program subject. We have used social media to share Engineer’s optimistic feelings, accomplishments, sacrifice, and effort. We’re also working along with the IEB Dhaka Centre’s ICT-related standing committee to host online Tech-Talk services. </p> -->
             </div>
             <div>
                 <UpdateGallery/>

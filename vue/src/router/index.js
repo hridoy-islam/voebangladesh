@@ -17,6 +17,7 @@ import Programs from '../views/Programs.vue';
 import Publication from '../views/Publication.vue';
 import SpecialEpisode from '../views/SpecialEpisode.vue';
 import Subscribe from '../views/Subscribe.vue';
+import SubscriptionBenifits from '../views/SubscriptionBenifits.vue';
 import TalkTable from '../views/TalkTable.vue';
 import TechnicalKnowHow from '../views/TechnicalKnowHow.vue';
 import Updates from '../views/Updates.vue';
@@ -49,6 +50,7 @@ const routes = [
             { path: '/publication', name: 'publication', component: Publication },
             { path: '/updates', name: 'updates', component: Updates },
             { path: '/subscribe', name: 'subscribe', component: Subscribe },
+            { path: '/subscribe-benefits', name: 'SubscriptionBenifits', component: SubscriptionBenifits },
         ]
     },
 

@@ -1,54 +1,59 @@
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
-
-
-const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About Us', href: '/about' },
-  { name: 'Programms', href: '/programs' },
-  { name: 'Advisors', href: '/advisors' },
-  { name: 'Ambassadors', href: '/ambassadors' },
-  { name: 'Publication', href: '/publication' },
-  { name: 'Updates', href: '/updates' },
-  { name: 'Subscribe', href: '/subscribe' },
-  { name: 'Contact', href: '/contact' },
-]
+import { Navbar, NavbarCollapse } from 'flowbite-vue';
+import { Dropdown, ListGroup, ListGroupItem } from 'flowbite-vue'
 </script>
 <template>
-  <Disclosure as="nav" class="" v-slot="{ open }">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-      <div class="relative flex py-4 items-center justify-around">
-        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-          <!-- Mobile menu button-->
-          <DisclosureButton class="inline-flex absolute left-80 items-center justify-center rounded-md p-2 text-primary hover:bg-gray-700 hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-            <span class="sr-only">Open main menu</span>
-            <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-            <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
-          </DisclosureButton>
-        </div>
-        <div class="flex flex-shrink-0 items-center">
-            <router-link to="/"><img class="h-20 w-auto" src="../assets/logo.jpg" alt="Your Company" /></router-link>
-          </div>
-        <div class="flex flex-1 items-center justify-end sm:items-stretch sm:justify-end">
+    <Navbar>
+      <template #logo>
+        <router-link to="/"><img class="h-20 w-auto" src="../assets/logo.jpg" alt="Your Company" /></router-link>
+      </template>
+      <template #default="{isShowMenu}">
+        <NavbarCollapse :isShowMenu="isShowMenu">
+          <router-link class="text-lg" to="/">Home</router-link>
+          <router-link class="text-lg" to="/about">About Us</router-link>
+          <router-link class="text-lg" to="/programs">Programs</router-link>
+          <router-link class="text-lg" to="/advisors">Advisors</router-link>
+          <router-link class="text-lg" to="/ambassadors">Ambassadors</router-link>
+          <router-link class="text-lg" to="/publication">Publication</router-link>
+          <router-link class="text-lg" to="/updates">Updates</router-link>
+          
+          <dropdown class="z-50" text="Subscribe">
+              <list-group>
+                <list-group-item>
+                  <router-link class="text-lg" to="/subscribe">Subscribe Us</router-link>
+                </list-group-item>
+                <list-group-item>
+                  <router-link class="text-lg" to="/subscribe-benefits">Subscription Benefits</router-link>
+                </list-group-item>
+              </list-group>
+          </dropdown>
 
-          <div class="hidden sm:ml-6 sm:block">
-            <div class="flex  space-x-4">
-              <router-link v-for="item in navigation" :key="item.name" :to="item.href" :class="[item.current ? 'bg-secondary text-white' : 'text-black hover:bg-secondary hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</router-link>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <DisclosurePanel class="sm:hidden">
-      <div class="space-y-1 px-2 pb-3 pt-2">
-        <DisclosureButton v-for="item in navigation" :key="item.name"  :to="item.href" :class="[item.current ? 'bg-secondary text-white' : 'text-black hover:bg-secondary hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
-      </div>
-    </DisclosurePanel>
-  </Disclosure>
+          <router-link class="text-lg" to="/contact">Contact</router-link>
+        </NavbarCollapse>
+      </template>
+    </Navbar>
 </template>
+<style>
+.bg-blue-700{
+  background: none;
+  font-size: 18px;
+  color: black;
+  padding: 0;
+}
+.bg-blue-700:hover{
+ background: none;
+}
+/* .divide-y{
+  bottom: -130px !important;
+} */
+.w-48{
+  width: 250px ;
+}
+.w-48 li{
+  padding: 20px 15px;
+}
+</style>
+
 
 
 

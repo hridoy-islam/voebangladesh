@@ -1,61 +1,21 @@
 <template>
     <div>
         <PageTitle title="Our Ambassadors" />
-        <!-- <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-4 my-5 container mx-auto">
-            <User v-for="(data, x) in users" :key="x" :user="data" />
-        </div> -->
-        <p class="container mx-auto my-5 pb-40 pt-20">
-            Yes we are blessed with our Advisors; who guide us and support us in many ways to take forward the journey of
-            Voice of Engineers Bangladesh. Honorary Senior Advisors and Honorary Advisors in these two types we catagorized
-            our Advisors. Advisors who had started their engineering journey on of after the year 2000 that means whose HSC
-            Exam was in the year 2000 or later are considered as Honourary Advisor and before the year 2000 are considered
-            as Honourary Senior Advisor. And Definitely they are all Engineers.
+        <div class="container mx-auto">
+            <p class="lg:w-8/12 lg:mx-0 w-10/12 mx-auto my-5 lg:py-12 py-4 lg:text-xl text-lg font-normal">
+            Our Ambassadors are our Network Heroes. They just represent us, spread us to make the voice more stronger and louder. CAMPUS AMBASSADORS works on engineering university students from different departments and batches as well. Meanwhile Ambassadors are open for but must be our registered subscriber. The main role of Ambassador is to collect the voice and spread that voice of Engineers with corporation of our content designer team
         </p>
+        </div>
     </div>
 </template>
 
 <script>
 import PageTitle from '../components/PageTitle.vue';
-import User from '../components/User.vue'
 
 export default {
-    components: { PageTitle, User },
+    components: { PageTitle },
     data() {
         return {
-            users: [
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Ashraful'
-                },
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Musfiq'
-                },
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Ashraful'
-                },
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Musfiq'
-                },
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Ashraful'
-                },
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Musfiq'
-                },
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Ashraful'
-                },
-                {
-                    name: 'Md. Ridoy Islam',
-                    title: 'Seniour Eng Musfiq'
-                },
-            ]
         }
     },
 }
