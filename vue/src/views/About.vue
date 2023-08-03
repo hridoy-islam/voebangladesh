@@ -30,13 +30,7 @@ export default {
         <div >
            <AboutMission/>
         </div>
-        <div >
-           <Slider/>
-        </div>
-        <!-- <div>
-           <h2>Our Advisors</h2>
-            <p>We are fortunate to have the assistance and advice of our Advisors as we continue on the path of Voice of Engineers Bangladesh. Our advisors are divided into two categories: Honorary Senior Advisors and Honorary Advisors. Honorary Advisors are those who started their engineering careers after the year 2000, i.e., passed the HSC Exam in the year 2000 or onwards, while Honorary Senior Advisors started their careers before that.</p>
-        </div>  -->
+        
   </template>
   
  

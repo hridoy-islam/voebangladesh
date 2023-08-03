@@ -1,12 +1,13 @@
 <template lang="">
     <div>
         <PageTitle title="Our Updates" :arrows="true" :dots="true"/>
-       <UpdateGallery/>
+       <UpdateScroll/>
     </div>
 </template>
 <script setup>
 import PageTitle from '../components/PageTitle.vue';
-import UpdateGallery from '../components/UpdateGallery.vue';
+
+import UpdateScroll from '../components/UpdateScroll.vue';
 
 
 </script>

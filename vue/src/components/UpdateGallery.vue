@@ -1,4 +1,69 @@
 <script setup>
+import { Carousel } from 'flowbite-vue'
+import News_Dailymessenger from "../assets/News_Dailymessenger.png";
+import News_dailyvorerpata from "../assets/News_dailyvorerpata.png";
+import News_ekattor from "../assets/News_ekattor.png";
+import News_jamuna from "../assets/News_jamuna.png";
+import News_Sarabangla from "../assets/News_sarabangla.png";
+import News_Somokal from "../assets/News_somokal.png";
+import news_Somoy from "../assets/news_somoy.png";
+import News_ss from "../assets/News_ss.png";
+const pictures = [
+  {
+    'src': news_Somoy,
+    'alt': 'Picture 1',
+  },
+  {
+    'src': News_ekattor,
+    'alt': 'Picture 2',
+  },
+  {
+    'src': News_Somokal,
+    'alt': 'Picture 3',
+  },
+  {
+    'src': News_jamuna,
+    'alt': 'Picture 4',
+  },
+  {
+    'src': News_dailyvorerpata,
+    'alt': 'Picture 5',
+  },
+  {
+    'src': News_Sarabangla,
+    'alt': 'Picture 6',
+  },
+  {
+    'src': News_Dailymessenger,
+    'alt': 'Picture 7',
+  },
+  {
+    'src': News_ss,
+    'alt': 'Picture 8',
+  },
+]
+</script>
+<template>
+  <Carousel class=""   :autoplay="true" :pictures="pictures"></Carousel>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script setup>
 import News_Dailymessenger from "../assets/News_Dailymessenger.png";
 import News_dailyvorerpata from "../assets/News_dailyvorerpata.png";
 import News_ekattor from "../assets/News_ekattor.png";
@@ -41,4 +106,4 @@ import News_ss from "../assets/News_ss.png";
 
 <style lang="">
     
-</style>
+</style> -->

@@ -15,7 +15,7 @@ const pictures = [
 ]
 </script>
 <template>
-  <Carousel class="" :pictures="pictures"></Carousel>
+  <Carousel class=""   :pictures="pictures"></Carousel>
 </template>
 <style>
 /* @media (min-width: 1020px){
@@ -54,4 +54,3 @@ const pictures = [
 }
 }
 </style>
-

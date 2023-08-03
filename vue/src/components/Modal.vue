@@ -4,7 +4,7 @@
 
           <template #body>
 
-            <iframe width="560" height="315" :src="store.state.url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  class="w-full lg:h-72 h-64" :src="store.state.url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </template>
             </Modal>
       </div>

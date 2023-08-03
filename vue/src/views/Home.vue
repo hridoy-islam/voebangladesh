@@ -5,11 +5,11 @@ import theTimeline from '../assets/thetimeline.jpg';
 import { Carousel } from 'flowbite-vue'
 import AboutMission from '../components/AboutMission.vue';
 import SlickSliderComponent from '../components/SlickSliderComponent.vue';
-import UpdateGallery from '../components/UpdateGallery.vue';
+import UpdateScroll from '../components/UpdateScroll.vue';
 import video from '../assets/video.mp4';
 export default {
   name: 'Home',
-    components: { AboutMission, SlickSliderComponent, UpdateGallery },
+    components: { AboutMission, SlickSliderComponent, UpdateScroll },
     data() {
         return {
           BannerImage,
@@ -64,7 +64,7 @@ const pictures = [
           <h2 class="text-4xl font-bold text-center">Our Updates</h2>
             </div>
             <div>
-                <UpdateGallery/>
+                <UpdateScroll/>
             </div>
         </div>
         <div>
