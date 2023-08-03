@@ -25,7 +25,7 @@ const items = [
 <template>
 <PageTitle title="Engineers News" />
     <div 
-     class="grid grid-cols-3 gap-6 container mx-auto my-12">
+     class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
       <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
         <img :src="item.thumbnail"/>
         <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{item.name}}</h5>

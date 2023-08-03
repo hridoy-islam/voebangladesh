@@ -20,7 +20,7 @@ function showModal() {
 
 <template>
 <PageTitle title="Guest Hour" />
-    <div class="grid grid-cols-3 gap-6 container mx-auto my-12">
+    <div class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
       <the-card @click="showModal" class="hover:cursor-pointer">
         <img src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
