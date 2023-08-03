@@ -4,7 +4,7 @@
       :space-between="20"
       @autoplay="autoplay"
       :breakpoints="{
-      '380': {
+      '320': {
         slidesPerView: 1,
         spaceBetween: 10,
       },
