@@ -2,6 +2,7 @@
 import BannerImage from '../assets/banner.jpeg';
 import HeroImage from '../assets/hero_banner.png';
 import theTimeline from '../assets/thetimeline.jpg';
+import meeting from '../assets/meeting.jpg';
 import AboutMission from '../components/AboutMission.vue';
 import SlickSliderComponent from '../components/SlickSliderComponent.vue';
 import UpdateScroll from '../components/UpdateScroll.vue';
@@ -25,6 +26,10 @@ const pictures = [
     {
         'src': theTimeline,
         'alt': 'Picture 2',
+    },
+    {
+        'src': meeting,
+        'alt': 'meeting'
     }
 ]
 </script>
