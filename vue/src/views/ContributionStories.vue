@@ -11,34 +11,38 @@ const videoModal = (url) => {
 }
 const items = [
     {
-      id: "1",
-      thumbnail: contribution_1,
-      name: "Exploring E-nothi :: Behind the Scene",
-      video: "https://www.youtube.com/embed/0Sfm4zfKATs",
+        id: "1",
+        thumbnail: contribution_1,
+        name: "Exploring E-nothi :: Behind the Scene",
+        video: "https://www.youtube.com/embed/0Sfm4zfKATs",
     },
     {
-      id: "2",
-      thumbnail: contribution_2,
-      name: "SUROKKHA- DIGITAL BLESSING FOR COVID VACCINATION MANAGEMENT",
-      video: "https://www.youtube.com/embed/xsKEKUhLr9I",
-      
+        id: "2",
+        thumbnail: contribution_2,
+        name: "SUROKKHA- DIGITAL BLESSING FOR COVID VACCINATION MANAGEMENT",
+        video: "https://www.youtube.com/embed/xsKEKUhLr9I",
+
     }
-    
+
 ]
 
 </script>
 
 
 <template>
-<PageTitle title="Contribution Stories" />
-    <div 
-     class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
-      <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
-        <img :src="item.thumbnail"/>
-        <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{item.name}}</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          {{ item.description }}
-        </p>
-      </the-card>
+    <PageTitle title="Contribution Stories" />
+    <div class="bg-gray-200 py-10 sm:py-16">
+        <p class="mx-auto max-w-7xl px-6 lg:px-8 text-xl">Some technologies bring about revolutionary shifts in peoples
+            lives and those stories deserve appreciation. Due to easy accessibility people simply enter our Live program and
+            leave a message expressing their gratitude.</p>
+    </div>
+    <div class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
+        <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
+            <img :src="item.thumbnail" />
+            <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{ item.name }}</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+                {{ item.description }}
+            </p>
+        </the-card>
     </div>
 </template>

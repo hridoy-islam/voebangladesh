@@ -33,6 +33,10 @@ const items = [
 
 <template>
     <PageTitle title="Cultural Hour" />
+    <div class="bg-gray-200 py-10 sm:py-16">
+        <p class="mx-auto max-w-7xl px-6 lg:px-8 text-xl">Engineers must, in fact, engage in recreational activities to
+            break the 9 to 5 cycle. Culture programs can be a great way to increase the intimacy among the community.</p>
+    </div>
     <div class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
         <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
             <img :src="item.thumbnail" />

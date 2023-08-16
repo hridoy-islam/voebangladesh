@@ -14,55 +14,59 @@ const videoModal = (url) => {
 }
 const items = [
     {
-      id: "1",
-      thumbnail: hope_1,
-      name: "Exploring Bangladesh Delta Plan 2100",
-      video: "https://www.youtube.com/embed/IOzSwvviQ8Y",
+        id: "1",
+        thumbnail: hope_1,
+        name: "Exploring Bangladesh Delta Plan 2100",
+        video: "https://www.youtube.com/embed/IOzSwvviQ8Y",
     },
     {
-      id: "2",
-      thumbnail: hope_2,
-      name: "Exploring SHOBAR DHAKA Apps by Dhaka North City Corporation",
-      video: "https://www.youtube.com/embed/8ANOEPy2zqA",
-      
+        id: "2",
+        thumbnail: hope_2,
+        name: "Exploring SHOBAR DHAKA Apps by Dhaka North City Corporation",
+        video: "https://www.youtube.com/embed/8ANOEPy2zqA",
+
     },
     {
-      id: "3",
-      thumbnail: hope_3,
-      name: "Bangladesh is on the Verge of 100% Electrification",
-      video: "https://www.youtube.com/embed/s9IKYhPHS3Q",
-      
+        id: "3",
+        thumbnail: hope_3,
+        name: "Bangladesh is on the Verge of 100% Electrification",
+        video: "https://www.youtube.com/embed/s9IKYhPHS3Q",
+
     },
     {
-      id: "4",
-      thumbnail: hope_4,
-      name: "Exploring UPOSORGO- Emerging Digital Health Care Services Platform",
-      video: "https://www.youtube.com/embed/0nYtfSiXJa4",
-      
+        id: "4",
+        thumbnail: hope_4,
+        name: "Exploring UPOSORGO- Emerging Digital Health Care Services Platform",
+        video: "https://www.youtube.com/embed/0nYtfSiXJa4",
+
     },
     {
-      id: "5",
-      thumbnail: hope_5,
-      name: "Electric Car in Bangladesh; A new Horizon in Country's Transportation System",
-      video: "https://www.youtube.com/embed/o829FGSBPsQ",
-      
+        id: "5",
+        thumbnail: hope_5,
+        name: "Electric Car in Bangladesh; A new Horizon in Country's Transportation System",
+        video: "https://www.youtube.com/embed/o829FGSBPsQ",
+
     }
-    
+
 ]
 
 </script>
 
 
 <template>
-<PageTitle title="Hope Talk" />
-    <div 
-     class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
-      <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
-        <img :src="item.thumbnail"/>
-        <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{item.name}}</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          {{ item.description }}
-        </p>
-      </the-card>
+    <PageTitle title="Hope Talk" />
+    <div class="bg-gray-200 py-10 sm:py-16">
+        <p class="mx-auto max-w-7xl px-6 lg:px-8 text-xl">Hope is Life; Life is Hope! People appreciate knowing about how
+            things have changed, and hope makes them happy. Without a question, Hope Talk is fun for people from all walks
+            of life.</p>
+    </div>
+    <div class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
+        <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
+            <img :src="item.thumbnail" />
+            <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{ item.name }}</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+                {{ item.description }}
+            </p>
+        </the-card>
     </div>
 </template>

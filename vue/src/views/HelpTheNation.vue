@@ -14,48 +14,54 @@ const videoModal = (url) => {
 }
 
 const items = [
-    
+
     {
-      id: "1",
-      thumbnail: helpgas,
-      name: "Gas Distribution System and Safety Issues",
-      video: "https://www.youtube.com/embed/1GGLvxjOkKI",
-      
+        id: "1",
+        thumbnail: helpgas,
+        name: "Gas Distribution System and Safety Issues",
+        video: "https://www.youtube.com/embed/1GGLvxjOkKI",
+
     },
     {
-      id: "2",
-      thumbnail: helpmeter,
-      name: "Prepaid Electricity Meter- Prospects, Challenges & Public Awareness",
-      video: "https://www.youtube.com/embed/6iPRJbi-KwI",
+        id: "2",
+        thumbnail: helpmeter,
+        name: "Prepaid Electricity Meter- Prospects, Challenges & Public Awareness",
+        video: "https://www.youtube.com/embed/6iPRJbi-KwI",
     },
     {
-      id: "3",
-      thumbnail: helpac,
-      name: "AC Blast; Reasons, Remedies and Safety Awareness",
-      video: "https://www.youtube.com/embed/Pl9QeR4wYyU",
+        id: "3",
+        thumbnail: helpac,
+        name: "AC Blast; Reasons, Remedies and Safety Awareness",
+        video: "https://www.youtube.com/embed/Pl9QeR4wYyU",
     },
     {
-      id: "4",
-      thumbnail: img4,
-      name: "Most Common Mistakes In Online World & Tips For Cyber Security",
-      video: "https://www.youtube.com/embed/S7src6C3e0E",
+        id: "4",
+        thumbnail: img4,
+        name: "Most Common Mistakes In Online World & Tips For Cyber Security",
+        video: "https://www.youtube.com/embed/S7src6C3e0E",
     },
-    
+
 ]
 
 </script>
 
 
 <template>
-<PageTitle title="Help The Nation" />
-    <div 
-     class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
-      <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
-        <img :src="item.thumbnail"/>
-        <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{item.name}}</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          {{ item.description }}
-        </p>
-      </the-card>
+    <PageTitle title="Help The Nation" />
+    <div class="bg-gray-200 py-10 sm:py-16">
+        <p class="mx-auto max-w-7xl px-6 lg:px-8 text-xl">To include guidance to the nation on various safety challenges,
+            incorrect
+            technological principles, and rumors.
+            This program aids the country in becoming acquainted with current technological challenges as well as
+            identifying and implementing protection steps efficiently and efficiently.</p>
+    </div>
+    <div class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
+        <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
+            <img :src="item.thumbnail" />
+            <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{ item.name }}</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+                {{ item.description }}
+            </p>
+        </the-card>
     </div>
 </template>

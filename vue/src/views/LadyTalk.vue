@@ -19,70 +19,74 @@ const videoModal = (url) => {
 }
 const items = [
     {
-      id: "1",
-      thumbnail: talk1,
-      name: "Experience Sharing as Women in Engineering.",
-      video: "https://www.youtube.com/embed/VvezEETJr4U",
+        id: "1",
+        thumbnail: talk1,
+        name: "Experience Sharing as Women in Engineering.",
+        video: "https://www.youtube.com/embed/VvezEETJr4U",
     },
     {
-      id: "2",
-      thumbnail: talk2,
-      name: "Exploring IEEE Bangladesh Section and Region-10",
-      video: "https://www.youtube.com/embed/PMja-7o2HdM",
-      
+        id: "2",
+        thumbnail: talk2,
+        name: "Exploring IEEE Bangladesh Section and Region-10",
+        video: "https://www.youtube.com/embed/PMja-7o2HdM",
+
     },
     {
-      id: "3",
-      thumbnail: talk3,
-      name: "Women's Leadership in Professional Platforms",
-      video: "https://www.youtube.com/embed/qKOIbkvA9vE",
+        id: "3",
+        thumbnail: talk3,
+        name: "Women's Leadership in Professional Platforms",
+        video: "https://www.youtube.com/embed/qKOIbkvA9vE",
     },
     {
-      id: "4",
-      thumbnail: talk4,
-      name: "Experience Sharing as Woman in Engineering Charms",
-      video: "https://www.youtube.com/embed/0vSFobklvt8",
+        id: "4",
+        thumbnail: talk4,
+        name: "Experience Sharing as Woman in Engineering Charms",
+        video: "https://www.youtube.com/embed/0vSFobklvt8",
     },
     {
-      id: "5",
-      thumbnail: talk5,
-      name: "Story and Status of Electricity in Country's Second Capital Chattogram",
-      video: "https://www.youtube.com/embed/GuxhapVfdqY",
+        id: "5",
+        thumbnail: talk5,
+        name: "Story and Status of Electricity in Country's Second Capital Chattogram",
+        video: "https://www.youtube.com/embed/GuxhapVfdqY",
     },
     {
-      id: "6",
-      thumbnail: talk6,
-      name: "Exploring GTCL With It's First Lady Managing Director Ever",
-      video: "https://www.youtube.com/embed/I5b4ikrgOz0",
+        id: "6",
+        thumbnail: talk6,
+        name: "Exploring GTCL With It's First Lady Managing Director Ever",
+        video: "https://www.youtube.com/embed/I5b4ikrgOz0",
     },
     {
-      id: "7",
-      thumbnail: talk7,
-      name: "Exploring WaterAid Bangladesh",
-      video: "https://www.youtube.com/embed/9v3LXrSNxdM",
+        id: "7",
+        thumbnail: talk7,
+        name: "Exploring WaterAid Bangladesh",
+        video: "https://www.youtube.com/embed/9v3LXrSNxdM",
     },
     {
-      id: "8",
-      thumbnail: talk8,
-      name: "Exploring Real State & Housing Association of Bangladesh",
-      video: "https://www.youtube.com/embed/pNFSsCt5mQE",
+        id: "8",
+        thumbnail: talk8,
+        name: "Exploring Real State & Housing Association of Bangladesh",
+        video: "https://www.youtube.com/embed/pNFSsCt5mQE",
     },
-    
+
 ]
 
 </script>
 
 
 <template>
-<PageTitle title="Lady Talk" />
-    <div 
-     class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
-      <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
-        <img :src="item.thumbnail"/>
-        <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{item.name}}</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          {{ item.description }}
-        </p>
-      </the-card>
+    <PageTitle title="Lady Talk" />
+    <div class="bg-gray-200 py-10 sm:py-16">
+        <p class="mx-auto max-w-7xl px-6 lg:px-8 text-xl">Engineers lives are demanding, but womens lives are even more so
+            because a lady equates to a mother. How would she manage to be an engineer, a mother, and a wife at the same
+            time? These success stories inspire women to pursue engineering careers.</p>
+    </div>
+    <div class="grid lg:grid-cols-3 gap-6 container mx-auto my-12">
+        <the-card @click="videoModal(item.video)" v-for="item in items" :key="item.name" class="hover:cursor-pointer">
+            <img :src="item.thumbnail" />
+            <h5 class=" text-2xl py-3 font-bold tracking-tight text-gray-900 dark:text-white">{{ item.name }}</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+                {{ item.description }}
+            </p>
+        </the-card>
     </div>
 </template>

@@ -2,39 +2,37 @@
 import BannerImage from '../assets/banner.jpeg';
 import HeroImage from '../assets/hero_banner.png';
 import theTimeline from '../assets/thetimeline.jpg';
-import { Carousel } from 'flowbite-vue'
 import AboutMission from '../components/AboutMission.vue';
 import SlickSliderComponent from '../components/SlickSliderComponent.vue';
 import UpdateScroll from '../components/UpdateScroll.vue';
 import video from '../assets/video.mp4';
 export default {
-  name: 'Home',
+    name: 'Home',
     components: { AboutMission, SlickSliderComponent, UpdateScroll },
     data() {
         return {
-          BannerImage,
-          video,
+            BannerImage,
+            video,
         }
     },
 }
 
 const pictures = [
-  {
-    'src': HeroImage,
-    'alt': 'Picture 1',
-  },
-  {
-    'src': theTimeline,
-    'alt': 'Picture 2',
-  }
+    {
+        'src': HeroImage,
+        'alt': 'Picture 1',
+    },
+    {
+        'src': theTimeline,
+        'alt': 'Picture 2',
+    }
 ]
 </script>
 <template>
-    
     <div>
-         <div class="bg-white z-0 d-none">
+        <div class="bg-white z-0 d-none">
             <div class="">
-                <SlickSliderComponent/>
+                <SlickSliderComponent />
             </div>
 
         </div>
@@ -51,20 +49,23 @@ const pictures = [
                 </p>
             </div>
             <div class="lg:w-5/12">
-                
-                <iframe class="lg:w-full w-11/12 mx-auto" height="315" src="https://www.youtube.com/embed/6XjPX7dKcVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <iframe class="lg:w-full w-11/12 mx-auto" height="315" src="https://www.youtube.com/embed/6XjPX7dKcVA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
 
         </div>
         <div>
-            <AboutMission/>
+            <AboutMission />
         </div>
         <div class="container mx-auto my-12 ">
             <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto">
-          <h2 class="text-4xl font-bold text-center">Our Updates</h2>
+                <h2 class="text-4xl font-bold text-center">Our Updates</h2>
             </div>
             <div>
-                <UpdateScroll/>
+                <UpdateScroll />
             </div>
         </div>
         <div>
