@@ -15,7 +15,7 @@
     </div>
 </template>
 <script setup>
-import voemagazinecover from '../assets/voemagazinecover.png'
+import voemagazinecover from '../assets/voemagazinecover.jpg'
 import PageTitle from '../components/PageTitle.vue';
 import { TheCard } from 'flowbite-vue';
 

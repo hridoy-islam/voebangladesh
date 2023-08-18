@@ -13,23 +13,23 @@ export default {
                 {
                     image: mission,
                     name: 'Our Mission',
-                    title: 'The contribution and efforts of Engineers are not vigilantly visible to our society and country as well. Our fundamental mission is to apprise engineers role in the operation, maintenance, and development of Bangladesh.'
+                    title: 'The contribution and efforts of Engineers are not vigilantly visible to our society and country as well. Our fundamental mission is to appraise engineer’s role in the operation, maintenance, and development of Bangladesh.'
                 },
                 {
                     image: vission,
                     name: 'Our Vision',
-                    title: 'Our vision is to be a loud voice for Engineers Rights and Dignities in Bangladesh.In the future, through our Technical Discussions, Idea and hunting programs, we will be able to assist the Government with the cooperation of IEB.'
+                    title: 'Our vision is to be a loud voice for Engineer’s Rights and Dignities in Bangladesh. In the near future, through our Technical Discussions, Workshops, Idea and Technical solution hunting programs, we will be able to assist the Government with the cooperation of IEB.'
                 },
-                {
-                    image: advisor,
-                    name: 'Our Advisors',
-                    title: 'We are fortunate to have the assistance and advice of our Advisors as we continue of Voice of Engineers Bangladesh.Our advisors are divided into two categories: Honorary Advisors started their careers before that.'
-                },
+                // {
+                //     image: advisor,
+                //     name: 'Our Advisors',
+                //     title: 'We are fortunate to have the assistance and advice of our Advisors as we continue of Voice of Engineers Bangladesh.Our advisors are divided into two categories: Honorary Advisors started their careers before that.'
+                // },
 
                 {
                     image: future,
                     name: 'Our Future Plans',
-                    title: 'We are at the inception phase of our journey. In the following phase, we are well planned to conduct Technical Workshops, Technical Discussions, Idea and solution hunting and Technical hackathons countrywide.'
+                    title: 'We are at the inception phase of our journey. In the following phase, we are well planned to conduct Technical Workshops, Idea hunting and Technical Hackathons countrywide. Besides, Recruitment of Campus Ambassadors in Engineering & Technology Universities, Honorary Ambassadors in Different Technical Organizations, Honorary Advisors of VOE is under Process and will be published in our website and social media platforms when finalised. '
                 },
                 // {
                 //     name: 'What are we doing Now',
@@ -44,7 +44,7 @@ export default {
 </script>
 <template lang="">
 
-        <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-4 my-16 container mx-auto">
+        <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-4 my-16 container mx-auto">
            <aboutDetails v-for="(data, x) in aboutDetails" :key="x" :about="data" />
         </div>
         <div class="bg-gray-50">

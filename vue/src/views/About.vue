@@ -26,7 +26,9 @@ export default {
                 collaborative partner of the Institution of Engineers, Bangladesh-IEB, Dhaka Centre. </p>
             <p class="my-2">VOE aspires to create a broad professional network among Bangladeshi engineers while also
                 advocating for their rights. Our main goal in achieving our vision and missions is to create unity and
-                connectivity among Bangladeshi engineers through our social media platforms and website.</p>
+                connectivity among Bangladeshi engineers through our social media platforms and website. We have applied for
+                registration as an Online Media/IPTV at Press Information Department(PID) of Bangladesh and it is in under
+                approval process.</p>
         </div>
         <div class="w-8/12">
             <img class="w-10/12 mx-auto rounded-xl" :src="BannerImage" />
