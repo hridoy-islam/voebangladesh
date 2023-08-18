@@ -47,7 +47,7 @@ export default {
         <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-4 my-16 container mx-auto">
            <aboutDetails v-for="(data, x) in aboutDetails" :key="x" :about="data" />
         </div>
-        <div class="bg-gray-50">
+        <div class="bg-[#006637] text-white">
           <div class="container mx-auto lg:mt-24 py-4 lg:py-2">
           <div class="lg:w-9/12 mx-4 my-4 lg:my-0 lg:mx-auto  lg:p-16 p-4">
           <h2 class="text-4xl font-bold text-center">What are we doing Now</h2>
