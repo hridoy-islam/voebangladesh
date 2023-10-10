@@ -20,7 +20,7 @@
       @swiper="onSwiper"
       @slideChange="onSlideChange"
     >
-      <swiper-slide> <div class="p-5 h-[550px] lg:h-[450px] bg-gray-100 rounded-xl flex items-center">
+      <swiper-slide> <div class="p-5 h-[550px] lg:h-[450px] bg-gray-100 rounded-xl flex items-center container mx-auto">
             <a href="https://www.somoynews.tv/news/2023-02-10/%E0%A6%A6%E0%A7%8D%E0%A6%AF-%E0%A6%9F%E0%A6%BE%E0%A6%87%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8-%E0%A6%8F%E0%A6%B0-%E0%A6%AE%E0%A7%8B%E0%A6%A1%E0%A6%BC%E0%A6%95-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A7%8B%E0%A6%9A%E0%A6%A8"><img src="../assets/news_somoy.png" alt="news_Somoy"/></a>
         </div></swiper-slide>
       <swiper-slide><div class="p-5 h-[550px] lg:h-[450px] bg-gray-100 rounded-xl flex items-center">
