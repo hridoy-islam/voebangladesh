@@ -1,7 +1,7 @@
 <template lang="">
     <div>
         <div class='grid grid-cols-5 gap-10 text-center container mx-auto my-16'>
-            <p class="text-md my-3 font-semibold">
+            <!-- <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full" src="../assets/updates_sponsors/ieb logo.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2246158255540193&type=3">IEB Updates :: আইইবি সংবাদ</a>
             </p>
@@ -24,10 +24,10 @@
             <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/Voe Logo round.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2164183827070970&type=3">বিনম্র শ্রদ্ধা  :: VOE</a>
-            </p>
+            </p> -->
 
 
-            <p class="text-md my-3 font-semibold">
+            <!-- <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/Voe Logo round.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.1934346693388019&type=3">IJOB Advertisement for ENGINEERS</a>
             </p>
@@ -46,7 +46,7 @@
             <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/bgcl.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2295650043924347&type=3">BGCL Updates :: বুয়েট গ্র্যাজুয়েটস ক্লাব সংবাদ</a>
-            </p>
+            </p> -->
             <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/apscl.jpeg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339681422854542&type=3">APSCL UPDATES:: আশুগঞ্জ পাওয়ার স্টেশন কোম্পানী লিমিটেড সংবাদ</a>
@@ -138,7 +138,7 @@
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/Dhaka_WASA_logo.jpeg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339685046187513&type=3">WASA UPDATES:: ঢাকা ওয়াসা সংবাদ</a>
             </p>
-            <p class="text-md my-3 font-semibold">
+            <!-- <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/Voe Logo round.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2055483704607650&type=3">বিজয়ের ৫০ বছর</a>
             </p>
@@ -149,7 +149,7 @@
             <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full" src="../assets/updates_sponsors/Voe Logo round.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2357271187762232&type=3">মেট্রোরেল :: প্রকৌশলীদের উচ্ছ্বাস</a>
-            </p>
+            </p> -->
         </div>
 
     </div>
