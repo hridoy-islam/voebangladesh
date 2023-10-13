@@ -54,27 +54,27 @@
 
 
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full" src="../assets/updates_sponsors/badc logo.jpg" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full" src="../assets/updates_sponsors/badclogo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339699292852755&type=3">BADC UPDATES:: বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-48 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/Bangladesh Railway logo.jpg" alt="ieb">
+                <img class="w-48 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/BangladeshRailwaylogo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.673082481520881&type=3">Bangladesh Railway Updates:: বাংলাদেশ রেলওয়ে সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/bba logo.jpg" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/bbalogo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2337509146405103&type=3">BBA UPDATES:: বাংলাদেশ সেতু কর্তৃপক্ষ সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/BPDB Logo.png" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/BPDBLogo.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339698729519478&type=3">BPDB UPDATES:: বাংলাদেশ বিদ্যুৎ উন্নয়ন বোর্ড সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/BREB Logo.png" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/BREBLogo.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339683729520978&type=3">BREB UPDATES:: বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/BSCL logo.png" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/BSCLlogo.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.697461335749662&type=3">BSCL UPDATES :: বাংলাদেশ স্যাটেলাইট কোম্পানি লিমিটেড সংবাদ</a>
             </p>
 
@@ -84,18 +84,18 @@
              <a href="https://www.facebook.com/media/set/?set=a.2339683399521011&type=3">BWDB UPDATES:: বাংলাদেশ পানি উন্নয়ন বোর্ড সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/ieb logo.png" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/ieblogo.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2460080457481304&type=3">DESCO UPDATES :: ঢাকা ইলেক্ট্রিক সাপ্লাই কোম্পানি লিমিটেড সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-             <a href="https://www.facebook.com/media/set/?set=a.2339698502852834&type=3"><img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/dpdc logo.png" alt="ieb"></a>DPDC UPDATES:: ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড সংবাদ
+             <a href="https://www.facebook.com/media/set/?set=a.2339698502852834&type=3"><img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/dpdclogo.png" alt="ieb"></a>DPDC UPDATES:: ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড সংবাদ
             </p>
             <p class="text-md my-3 font-semibold">
                 <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/DPHE_logo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2422136904608993&type=3">DPHE UPDATES :: জনস্বাস্থ্য প্রকৌশল অধিদপ্তর সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/eed logo.png" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/eedlogo.png" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339682252854459&type=3">EED UPDATES:: শিক্ষা প্রকৌশল অধিদপ্তর সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
@@ -105,7 +105,7 @@
 
 
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/LGED Logo.jpg" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/LGEDLogo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339689149520436&type=3">LGED UPDATES:: স্থানীয় সরকার প্রকৌশল অধিদপ্তর সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
@@ -121,17 +121,17 @@
              <a href="https://www.facebook.com/media/set/?set=a.2339689432853741&type=3">PGCB UPDATES:: পাওয়ার গ্রিড কোম্পানি অব বাংলাদেশ লিমিটেড সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/pwd logo.jpg" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/pwdlogo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339684566187561&type=3">PWD UPDATES:: গণপূর্ত অধিদপ্তর সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/RHD logo.jpg" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/RHDlogo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2339689959520355&type=3">RHD UPDATES:: সড়ক ও জনপথ অধিদপ্তর সংবাদ</a>
             </p>
 
 
             <p class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/teletalk logo.jpg" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full " src="../assets/updates_sponsors/teletalklogo.jpg" alt="ieb">
              <a href="https://www.facebook.com/media/set/?set=a.2447048795451137&type=3">Teletalk Updates :: টেলিটক বাংলাদেশ সংবাদ</a>
             </p>
             <p class="text-md my-3 font-semibold">
