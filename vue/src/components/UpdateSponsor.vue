@@ -84,7 +84,7 @@
              <a class='text-md font-bold'  href="https://www.facebook.com/media/set/?set=a.2339683399521011&type=3">BWDB UPDATES:: বাংলাদেশ পানি উন্নয়ন বোর্ড সংবাদ</a>
             </div>
             <div class="text-md my-3 font-semibold">
-                <img class="w-24 h-24 mx-auto mb-2 rounded-full text-4xl" src="../assets/updates_sponsors/desco logo.png" alt="ieb">
+                <img class="w-24 h-24 mx-auto mb-2 rounded-full text-4xl" src="../assets/updates_sponsors/descologo.png" alt="ieb">
              <a class='text-md font-bold'  href="https://www.facebook.com/media/set/?set=a.2460080457481304&type=3">DESCO UPDATES :: ঢাকা ইলেক্ট্রিক সাপ্লাই কোম্পানি লিমিটেড সংবাদ</a>
             </div>
             <div class="text-md my-3 font-semibold">
