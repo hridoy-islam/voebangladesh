@@ -4,7 +4,7 @@
             <!-- Loop for sponser -->
             <div v-for="(item, index) in items" :key="index" class="text-md my-3 font-semibold shadow-md p-4 border border-gray-300">
                 <img class="w-24 h-24 mx-auto mb-2 " :src=item.img alt="ieb">
-             <a class='text-md font-bold' :href=item.link> {{item.name}}</a>
+             <a class='text-md font-bold' target="_blank" :href=item.link> {{item.name}}</a>
             </div>
         </div>
 
