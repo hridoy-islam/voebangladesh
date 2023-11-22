@@ -53,7 +53,7 @@ export default {
             items: [
                 {
                     img: apscl,
-                    name: 'APSCL UPDATES:: আশুগঞ্জ পাওয়ার স্টেশন কোম্পানী লিমিটেড সংবাদ',
+                    name: 'APSCL UPDATES:: আশুগঞ্জ পাওয়ার স্টেশন কোম্পানী সংবাদ',
                     link: 'https://www.facebook.com/media/set/?set=a.2339681422854542&type=3',
                 },
                 {
@@ -98,7 +98,7 @@ export default {
                 },
                 {
                     img: BSCLlogo,
-                    name: 'BSCL UPDATES :: বাংলাদেশ স্যাটেলাইট কোম্পানি লিমিটেড সংবাদ',
+                    name: 'BSCL UPDATES :: বাংলাদেশ স্যাটেলাইট কোম্পানি সংবাদ',
                     link: 'https://www.facebook.com/media/set/?set=a.697461335749662&type=3',
                 },
                 {
@@ -124,12 +124,12 @@ export default {
 
                 {
                     img: descologo,
-                    name: 'DESCO UPDATES :: ঢাকা ইলেক্ট্রিক সাপ্লাই কোম্পানি লিমিটেড সংবাদ',
+                    name: 'DESCO UPDATES :: ঢাকা ইলেক্ট্রিক সাপ্লাই কোম্পানি সংবাদ',
                     link: 'https://www.facebook.com/media/set/?set=a.2460080457481304&type=3',
                 },
                 {
                     img: dpdclogo,
-                    name: 'DPDC UPDATES:: ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড সংবাদ',
+                    name: 'DPDC UPDATES:: ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি সংবাদ',
                     link: 'https://www.facebook.com/media/set/?set=a.2339698502852834&type=3',
                 },
                 {
@@ -154,7 +154,7 @@ export default {
                 },
                 {
                     img: gtcl,
-                    name: 'GTCL UPDATES :: গ্যাস ট্রান্সমিশন কোম্পানী লিমিটেড সংবাদ',
+                    name: 'GTCL UPDATES :: গ্যাস ট্রান্সমিশন কোম্পানী সংবাদ',
                     link: "https://www.facebook.com/media/set/?set=a.2425061594316524&type=3",
                 },
                 {
@@ -174,7 +174,7 @@ export default {
                 },
                 {
                     img: NPCBL,
-                    name: 'NPCBL : নিউক্লিয়ার পাওয়ার প্লান্ট কোম্পানি বাংলাদেশ লিমিটেড সংবাদ',
+                    name: 'NPCBL : নিউক্লিয়ার পাওয়ার প্লান্ট কোম্পানি বাংলাদেশ সংবাদ',
                     link: "https://www.facebook.com/media/set/?set=a.2440619522760731&type=3",
                 },
                 {
@@ -189,7 +189,7 @@ export default {
                 },
                 {
                     img: pgcb,
-                    name: 'PGCB UPDATES:: পাওয়ার গ্রিড কোম্পানি অব বাংলাদেশ লিমিটেড সংবাদ',
+                    name: 'PGCB UPDATES:: পাওয়ার গ্রিড কোম্পানি অব বাংলাদেশ সংবাদ',
                     link: "https://www.facebook.com/media/set/?set=a.2339689432853741&type=3",
                 },
                 {
@@ -219,7 +219,7 @@ export default {
                 },
                 {
                     img: Dhaka_WASA_logo,
-                    name: 'WASA UPDATES:: ঢাকা ওয়াসা সংবাদ',
+                    name: 'WASA UPDATES:: ওয়াসা সংবাদ',
                     link: "https://www.facebook.com/media/set/?set=a.2339685046187513&type=3",
                 },
                 {
