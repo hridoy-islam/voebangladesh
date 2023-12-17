@@ -4,6 +4,7 @@ import PageTitle from '../../src/components/PageTitle.vue';
 import hat from '../assets/1.jpeg';
 import digital from '../assets/digital.jpg';
 import tipsoi from '../assets/TIPSOI.jpg';
+import holo from '../assets/holo.jpg';
 import store from "../store/Index";
 
 const videoModal = (url) => {
@@ -31,7 +32,12 @@ const items = [
         name: "Introducing TIPSOI Smart Attendance System. VOEBD",
         video: "https://www.youtube.com/embed/ai3KkbRO2SM",
     },
-
+    {
+        id: "4",
+        thumbnail: holo,
+        name: "Exploring 'HOLO'- New Ride Sharing Apps in Bangladesh",
+        video: "https://www.youtube.com/embed/5kOOftWQ1R4",
+    },
 ]
 
 </script>

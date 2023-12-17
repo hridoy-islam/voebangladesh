@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <PageTitle title="Our Updates" :arrows="true" :dots="true"/>
+        <PageTitle title="Updates" :arrows="true" :dots="true"/>
        <!-- <UpdateScroll/> -->
        <UpdateSponsor/>
     </div>
