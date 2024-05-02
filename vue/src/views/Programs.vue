@@ -1,5 +1,5 @@
 <template>
-    <PageTitle title="Our Programms" />
+    <PageTitle title="Our Programs" />
     <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-4 my-16 container mx-auto">
       <Program v-for="(data, x) in programms" :key="x" :program="data" />
     </div>
