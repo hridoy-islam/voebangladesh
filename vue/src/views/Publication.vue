@@ -7,7 +7,7 @@
         <h5 class="mb-2 text-2xl pt-4 font-bold tracking-tight text-gray-900 dark:text-white">
 
         </h5>
-        <a href="https://drive.google.com/file/d/13JuNNe0MFl0p1-1Y9iHomry_PYr2VlCg/view?usp=sharing" class="font-normal text-white bg-primary py-2 px-10 w-full block text-center" >
+        <a href="https://drive.google.com/file/d/1PsxysEfT_S1NGaHfCirlbm1lxKpt1b58/view" class="font-normal text-white bg-primary py-2 px-10 w-full block text-center" >
             Download
         </a>
     </the-card>
