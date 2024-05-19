@@ -10,7 +10,7 @@
 
     </div>
 </template>
-   
+
 <script>
 import BCIC from "../assets/updates_sponsors/BCIC.jpg";
 import BPDBLogo from "../assets/updates_sponsors/BPDBLogo.png";
@@ -174,7 +174,7 @@ export default {
                 },
                 {
                     img: NPCBL,
-                    name: 'NPCBL : নিউক্লিয়ার পাওয়ার প্লান্ট কোম্পানি বাংলাদেশ সংবাদ',
+                    name: 'NPCBL UPDATES :: নিউক্লিয়ার পাওয়ার প্লান্ট কোম্পানি সংবাদ',
                     link: "https://www.facebook.com/media/set/?set=a.2440619522760731&type=3",
                 },
                 {
